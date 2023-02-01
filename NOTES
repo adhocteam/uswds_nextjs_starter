@@ -27,3 +27,14 @@ and it works!
 - in general, the USWDS website is a good guide for how to use it:
 
     https://github.com/usds/website
+
+
+- alright we need a website next, let's try next.js
+    - working in a branch
+    - it wants you to clone a template repo using `npx --example`:
+
+npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
+
+    - maybe our example should use that same mechanism?
+        - I'd like to carry through the github actions, but I suppose I can do that there too
+    - copying their CSS in gets us to a working page (minus the static assets)
