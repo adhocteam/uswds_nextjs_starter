@@ -38,3 +38,23 @@ npx create-next-app@latest nextjs-blog --use-npm --example "https://github.com/v
     - maybe our example should use that same mechanism?
         - I'd like to carry through the github actions, but I suppose I can do that there too
     - copying their CSS in gets us to a working page (minus the static assets)
+
+- Trying to include the USWDS CSS:
+    - first trouble, can't import from a component
+        - since it's global CSS it has to be imported at the top level. Fine, sensible I guess.
+        - Created pages/_app.js and imported it from there
+    - next trouble, can't import assets
+        - I'll copy them manually for now, is there a way to tell sass to do this automatically?
+
+cp -r node_modules/@uswds/uswds/packages/uswds-core/src/assets/fonts assets/
+cp -r node_modules/@uswds/uswds/dist/img/usa-icons assets/img/
+cp -r node_modules/@uswds/uswds/dist/img/usa-icons-bg assets/icp -r node_modules/@uswds/uswds/dist/img/*.{svg,png,jpg,gif} assets/img/mg/
+
+    - let's also copy in the js assets:
+
+cp -r node_modules/@uswds/uswds/dist/js assets/
+
+    - here's a page talking about the assets you need in your project:
+        - https://designsystem.digital.gov/documentation/developers/
+
+    - TODO: probably should organize the assets into a "uswds" folder to distinguish them from assets created by the prototyper

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import styles from "../assets/stylesheets/Home.module.css";
 
 export default function Home() {
@@ -6,10 +7,16 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
+        <Script src="assets/js/uswds-init.min.js" />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
+        <button type="" className="usa-button usa-focus">
+          Focus
+        </button>
+
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -110,6 +117,7 @@ export default function Home() {
           box-sizing: border-box;
         }
       `}</style>
+      <Script src="assets/js/uswds.min.js" />
     </div>
   );
 }
