@@ -1,0 +1,15 @@
+{
+  "name": "uswds_starter",
+  "version": "1.0.0",
+  "description": "accessible USWDS starting point",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "sass --update --load-path=node_modules/@uswds/uswds/packages assets/stylesheets/styles.scss assets/stylesheets/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uswds/uswds": "^3.3.0"
+  }
+}

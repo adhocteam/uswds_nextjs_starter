@@ -1,0 +1,29 @@
+- trying to follow the instructions at:
+
+https://designsystem.digital.gov/documentation/getting-started-for-developers/
+
+- without using their gulpfile thing
+- created an npm project and `npm install @uswds/uswds`
+- created a `styles.css`
+- install sass with `brew install sass/sass/sass`
+    - their site seems to recommend this approach instead of doing `npm install sass`? Maybe revisit this.
+
+- it won't compile, "can't find stylesheet to import".
+    - This looks like a good example of how it should work:
+
+https://cs.github.com/usds/website/blob/aecd04237dd7f003c3c4673dae5afa7d538eb05d/package.json
+
+    - which builds it with:
+
+sass assets/stylesheets/uswds/index.scss assets/stylesheets/uswds/styles.css --update --style=compressed --load-path='node_modules/@uswds/uswds/packages'
+
+OK, build with: sass -I node_modules/@uswds/uswds/packages styles.scss
+
+and it works!
+
+- added that command to package.json as "css"
+- moved scss files to assets/stylesheets/
+- changed css output to assets/stylesheets/styles.css
+- in general, the USWDS website is a good guide for how to use it:
+
+    https://github.com/usds/website
