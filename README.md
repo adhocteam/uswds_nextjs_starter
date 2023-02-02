@@ -20,10 +20,10 @@ To build it manually, run `npm run export`, and you will find the site in the
 On every push, the [CI job](.github/workflows/ci.yml) runs ESLint,
 and should verify that you're following some best practices.
 
-This site should maintain high standards for accessibility, and I would like to
-implement more tooling for it, but I also don't know what I'm doing - see
-[issue #3](https://github.com/adhocteam/uswds_starter/issues/3) if you want to
-help out
+This template should maintain the highest standards for accessibility, and I
+would like to implement more tooling for it, but I also don't know what I'm
+doing - see [issue #3](https://github.com/adhocteam/uswds_starter/issues/3) if
+you want to help out
 
 ## Changing USWDS variables
 
