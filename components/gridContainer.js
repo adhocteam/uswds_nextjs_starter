@@ -1,12 +1,16 @@
+import Image from "next/image";
+
+import circle from "/assets/img/circle-124.png";
+
 export default function GridContainer() {
   return (
     <section className="usa-graphic-list usa-section usa-section--dark">
       <div className="grid-container">
         <div className="usa-graphic-list__row grid-row grid-gap">
           <div className="usa-media-block tablet:grid-col">
-            <img
+            <Image
               className="usa-media-block__img"
-              src="/assets/img/circle-124.png"
+              src={circle}
               alt="Alt text"
             />
             <div className="usa-media-block__body">
@@ -21,9 +25,9 @@ export default function GridContainer() {
             </div>
           </div>
           <div className="usa-media-block tablet:grid-col">
-            <img
+            <Image
               className="usa-media-block__img"
-              src="/assets/img/circle-124.png"
+              src={circle}
               alt="Alt text"
             />
             <div className="usa-media-block__body">
@@ -40,9 +44,9 @@ export default function GridContainer() {
         </div>
         <div className="usa-graphic-list__row grid-row grid-gap">
           <div className="usa-media-block tablet:grid-col">
-            <img
+            <Image
               className="usa-media-block__img"
-              src="/assets/img/circle-124.png"
+              src={circle}
               alt="Alt text"
             />
             <div className="usa-media-block__body">
@@ -57,9 +61,9 @@ export default function GridContainer() {
             </div>
           </div>
           <div className="usa-media-block tablet:grid-col">
-            <img
+            <Image
               className="usa-media-block__img"
-              src="/assets/img/circle-124.png"
+              src={circle}
               alt="Alt text"
             />
             <div className="usa-media-block__body">
