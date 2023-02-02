@@ -5,8 +5,8 @@ export default function Header() {
         <div className="usa-navbar">
           <div className="usa-logo" id="-logo">
             <em className="usa-logo__text">
-              <a href="/" title="<Project title>">
-                &lt;Project title&gt;
+              <a href="/" title="USWDS Starter Project">
+                USWDS Starter Project
               </a>
             </em>
           </div>
