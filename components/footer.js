@@ -1,4 +1,12 @@
+import Image from "next/image";
 import Link from "next/link";
+
+import rssFeed from "/assets/img/usa-icons/rss_feed.svg";
+import logoImg from "/assets/img/logo-img.png";
+import facebook from "/assets/img/usa-icons/facebook.svg";
+import twitter from "/assets/img/usa-icons/twitter.svg";
+import youtube from "/assets/img/usa-icons/youtube.svg";
+import instagram from "/assets/img/usa-icons/instagram.svg";
 
 export default function Footer() {
   return (
@@ -67,9 +75,10 @@ export default function Footer() {
             "
             >
               <div className="mobile-lg:grid-col-auto">
-                <img
+                <Image
                   className="usa-footer__logo-img"
-                  src="/assets/img/logo-img.png"
+                  style={{ objectFit: "contain" }}
+                  src={logoImg}
                   alt=""
                 />
               </div>
@@ -81,45 +90,45 @@ export default function Footer() {
               <div className="usa-footer__social-links grid-row grid-gap-1">
                 <div className="grid-col-auto">
                   <Link className="usa-social-link" href="/">
-                    <img
+                    <Image
                       className="usa-social-link__icon"
-                      src="/assets/img/usa-icons/facebook.svg"
+                      src={facebook}
                       alt="Facebook"
                     />
                   </Link>
                 </div>
                 <div className="grid-col-auto">
                   <Link className="usa-social-link" href="/">
-                    <img
+                    <Image
                       className="usa-social-link__icon"
-                      src="/assets/img/usa-icons/twitter.svg"
+                      src={twitter}
                       alt="Twitter"
                     />
                   </Link>
                 </div>
                 <div className="grid-col-auto">
                   <Link className="usa-social-link" href="/">
-                    <img
+                    <Image
                       className="usa-social-link__icon"
-                      src="/assets/img/usa-icons/youtube.svg"
+                      src={youtube}
                       alt="YouTube"
                     />
                   </Link>
                 </div>
                 <div className="grid-col-auto">
                   <Link className="usa-social-link" href="/">
-                    <img
+                    <Image
                       className="usa-social-link__icon"
-                      src="/assets/img/usa-icons/instagram.svg"
+                      src={instagram}
                       alt="Instagram"
                     />
                   </Link>
                 </div>
                 <div className="grid-col-auto">
                   <Link className="usa-social-link" href="/">
-                    <img
+                    <Image
                       className="usa-social-link__icon"
-                      src="/assets/img/usa-icons/rss_feed.svg"
+                      src={rssFeed}
                       alt="RSS"
                     />
                   </Link>
