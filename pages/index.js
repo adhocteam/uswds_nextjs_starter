@@ -32,11 +32,6 @@ export default function Home() {
       </main>
       <Footer />
       <Nav />
-
-      {/* The purpose of this script is to prevent flash of uninitialized
-        content, so load it before interactive.
-        XXX: I cannot at all figure out why this script isn't getting loaded! */}
-      <Script src="assets/js/uswds-init.min.js" strategy="beforeInteractive" />
       <Script src="assets/js/uswds.min.js" />
     </div>
   );
