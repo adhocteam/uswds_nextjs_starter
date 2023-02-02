@@ -10,4 +10,4 @@ In the future this repo will facilitate deployment to vercel or github pages
 
 ## Accessibility
 
-In the future, this repo will automatically lint your code for its accessibility practices
+On every push, the [CI job](blob/main/.github/workflows/ci.yml) runs ESLint, and should verify that you're following some best practices.
