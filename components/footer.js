@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="usa-footer">
       <div className="grid-container usa-footer__return-to-top">
-        <a href="#">Return to top</a>
+        <Link href="#">Return to top</Link>
       </div>
       <div className="usa-footer__primary-section">
         <nav className="usa-footer__nav" aria-label="Footer navigation">
@@ -14,12 +16,9 @@ export default function Footer() {
               usa-footer__primary-content
             "
             >
-              <a
-                className="usa-footer__primary-link"
-                href="javascript:void(0);"
-              >
+              <Link className="usa-footer__primary-link" href="/">
                 &lt;Primary link&gt;
-              </a>
+              </Link>
             </li>
             <li
               className="
@@ -28,12 +27,9 @@ export default function Footer() {
               usa-footer__primary-content
             "
             >
-              <a
-                className="usa-footer__primary-link"
-                href="javascript:void(0);"
-              >
+              <Link className="usa-footer__primary-link" href="/">
                 &lt;Primary link&gt;
-              </a>
+              </Link>
             </li>
             <li
               className="
@@ -42,12 +38,9 @@ export default function Footer() {
               usa-footer__primary-content
             "
             >
-              <a
-                className="usa-footer__primary-link"
-                href="javascript:void(0);"
-              >
+              <Link className="usa-footer__primary-link" href="/">
                 &lt;Primary link&gt;
-              </a>
+              </Link>
             </li>
             <li
               className="
@@ -56,12 +49,9 @@ export default function Footer() {
               usa-footer__primary-content
             "
             >
-              <a
-                className="usa-footer__primary-link"
-                href="javascript:void(0);"
-              >
+              <Link className="usa-footer__primary-link" href="/">
                 &lt;Primary link&gt;
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -90,49 +80,49 @@ export default function Footer() {
             <div className="usa-footer__contact-links mobile-lg:grid-col-6">
               <div className="usa-footer__social-links grid-row grid-gap-1">
                 <div className="grid-col-auto">
-                  <a className="usa-social-link" href="javascript:void(0);">
+                  <Link className="usa-social-link" href="/">
                     <img
                       className="usa-social-link__icon"
                       src="/assets/img/usa-icons/facebook.svg"
                       alt="Facebook"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="grid-col-auto">
-                  <a className="usa-social-link" href="javascript:void(0);">
+                  <Link className="usa-social-link" href="/">
                     <img
                       className="usa-social-link__icon"
                       src="/assets/img/usa-icons/twitter.svg"
                       alt="Twitter"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="grid-col-auto">
-                  <a className="usa-social-link" href="javascript:void(0);">
+                  <Link className="usa-social-link" href="/">
                     <img
                       className="usa-social-link__icon"
                       src="/assets/img/usa-icons/youtube.svg"
                       alt="YouTube"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="grid-col-auto">
-                  <a className="usa-social-link" href="javascript:void(0);">
+                  <Link className="usa-social-link" href="/">
                     <img
                       className="usa-social-link__icon"
                       src="/assets/img/usa-icons/instagram.svg"
                       alt="Instagram"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="grid-col-auto">
-                  <a className="usa-social-link" href="javascript:void(0);">
+                  <Link className="usa-social-link" href="/">
                     <img
                       className="usa-social-link__icon"
                       src="/assets/img/usa-icons/rss_feed.svg"
                       alt="RSS"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <p className="usa-footer__contact-heading">
@@ -141,10 +131,14 @@ export default function Footer() {
               <address className="usa-footer__address">
                 <div className="usa-footer__contact-info grid-row grid-gap">
                   <div className="grid-col-auto">
-                    <a href="tel:1-800-555-5555">&lt;(800) 555-GOVT&gt;</a>
+                    <Link href="tel:1-800-555-5555">
+                      &lt;(800) 555-GOVT&gt;
+                    </Link>
                   </div>
                   <div className="grid-col-auto">
-                    <a href="mailto:info@agency.gov">&lt;info@agency.gov&gt;</a>
+                    <Link href="mailto:info@agency.gov">
+                      &lt;info@agency.gov&gt;
+                    </Link>
                   </div>
                 </div>
               </address>

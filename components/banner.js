@@ -1,3 +1,9 @@
+import Image from "next/image";
+
+import smallFlag from "../assets/img/us_flag_small.png";
+import iconDotGov from "../assets/img/icon-dot-gov.svg";
+import iconHttps from "/assets/img/icon-https.svg";
+
 export default function Banner() {
   return (
     <>
@@ -12,10 +18,12 @@ export default function Banner() {
           <header className="usa-banner__header">
             <div className="usa-banner__inner">
               <div className="grid-col-auto">
-                <img
+                <Image
                   aria-hidden="true"
                   className="usa-banner__header-flag"
-                  src="/assets/img/us_flag_small.png"
+                  src={smallFlag}
+                  width="16"
+                  height="11"
                   alt=""
                 />
               </div>
@@ -24,7 +32,7 @@ export default function Banner() {
                 aria-hidden="true"
               >
                 <p className="usa-banner__header-text">
-                  An official website of the United States government
+                  An unofficial website of the United States government
                 </p>
                 <p className="usa-banner__header-action">Here’s how you know</p>
               </div>
@@ -46,9 +54,9 @@ export default function Banner() {
           >
             <div className="grid-row grid-gap-lg">
               <div className="usa-banner__guidance tablet:grid-col-6">
-                <img
+                <Image
                   className="usa-banner__icon usa-media-block__img"
-                  src="/assets/img/icon-dot-gov.svg"
+                  src={iconDotGov}
                   role="img"
                   alt=""
                   aria-hidden="true"
@@ -62,9 +70,9 @@ export default function Banner() {
                 </div>
               </div>
               <div className="usa-banner__guidance tablet:grid-col-6">
-                <img
+                <Image
                   className="usa-banner__icon usa-media-block__img"
-                  src="/assets/img/icon-https.svg"
+                  src={iconHttps}
                   role="img"
                   alt=""
                   aria-hidden="true"
