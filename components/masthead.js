@@ -1,3 +1,7 @@
+import Image from "next/image";
+
+import circle from "/assets/img/circle-gray-20.svg";
+
 export default function Masthead() {
   return (
     <section
@@ -7,9 +11,9 @@ export default function Masthead() {
       <div className="usa-identifier__container">
         <div className="usa-identifier__logos">
           <a href="#" className="usa-identifier__logo">
-            <img
+            <Image
               className="usa-identifier__logo-img"
-              src="/assets/img/circle-gray-20.svg"
+              src={circle}
               alt="&lt;Parent agency&gt; logo"
               role="img"
             />
