@@ -55,6 +55,11 @@ cp -r node_modules/@uswds/uswds/dist/img/usa-icons-bg assets/icp -r node_modules
 cp -r node_modules/@uswds/uswds/dist/js assets/
 
     - here's a page talking about the assets you need in your project:
-        - https://designsystem.digital.gov/documentation/developers/
+
+https://designsystem.digital.gov/documentation/developers/
 
     - TODO: probably should organize the assets into a "uswds" folder to distinguish them from assets created by the prototyper
+
+    - complained about importing scripts directly, so used the <Script> element
+
+https://nextjs.org/docs/messages/no-script-tags-in-head-component
