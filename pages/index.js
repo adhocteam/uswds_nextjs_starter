@@ -1,122 +1,42 @@
 import Head from "next/head";
 import Script from "next/script";
-import styles from "../assets/stylesheets/Home.module.css";
+import Banner from "../components/banner";
+import Header from "../components/header";
+import Hero from "../components/hero";
+import Tagline from "../components/tagline";
+import GridContainer from "../components/gridContainer";
+import Intro from "../components/intro";
+import Footer from "../components/footer";
+import Nav from "../components/nav";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
-        <Script src="assets/js/uswds-init.min.js" />
+        <title>USWDS prototype template</title>
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Banner />
+      {/* XXX: The template image on the docs page
+        (https://designsystem.digital.gov/templates/landing-page/) shows a
+        search bar here but the code for it isn't present in the box below the
+        image */}
+      <Header />
       <main>
-        <button type="" className="usa-button usa-focus">
-          Focus
-        </button>
-
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+        <Hero />
+        <Tagline />
+        <GridContainer />
+        <Intro />
       </main>
+      <Footer />
+      <Nav />
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
-
-      <style jsx>{`
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        footer img {
-          margin-left: 0.5rem;
-        }
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-decoration: none;
-          color: inherit;
-        }
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
+      {/* The purpose of this script is to prevent flash of uninitialized
+        content, so load it before interactive.
+        XXX: I cannot at all figure out why this script isn't getting loaded! */}
+      <Script src="assets/js/uswds-init.min.js" strategy="beforeInteractive" />
       <Script src="assets/js/uswds.min.js" />
     </div>
   );
