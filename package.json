@@ -8,6 +8,7 @@
     "css": "sass --update --load-path=node_modules/@uswds/uswds/packages assets/stylesheets/styles.scss assets/stylesheets/styles.css",
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
