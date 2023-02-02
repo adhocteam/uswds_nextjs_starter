@@ -8,7 +8,8 @@
     "css": "sass --update --load-path=node_modules/@uswds/uswds/packages assets/stylesheets/styles.scss assets/stylesheets/styles.css",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "author": "",
   "license": "MIT",
