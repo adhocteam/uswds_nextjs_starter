@@ -1,10 +1,13 @@
 /* https://designsystem.digital.gov/documentation/settings/ */
-/* $theme-image-path: "../uswds/img", */
 @use "uswds-core" with (
-  $theme-show-compile-warnings: true,
-  $theme-show-notifications: false,
-  $theme-banner-background-color: "ink",
-  $theme-banner-link-color: "primary-light",
-  $theme-banner-max-width: "widescreen",
-  $theme-checkbox-border-radius: "md"
-);
+    $theme-show-compile-warnings: true,
+    $theme-show-notifications: false,
+    $theme-banner-background-color: "ink",
+    $theme-banner-link-color: "primary-light",
+    $theme-banner-max-width: "widescreen",
+    $theme-checkbox-border-radius: "md",
+    /* next.js is running sass from a weird directory? So I eneded up having to
+   * randomly find a path that works here */
+      $theme-font-path: "../../../assets/fonts",
+    /* $theme-image-path: "../../../uswds/img" */
+  );
