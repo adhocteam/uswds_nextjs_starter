@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header className="usa-header usa-header--basic">
@@ -5,9 +7,9 @@ export default function Header() {
         <div className="usa-navbar">
           <div className="usa-logo" id="-logo">
             <em className="usa-logo__text">
-              <a href="/" title="USWDS Starter Project">
+              <Link href="/" title="USWDS Starter Project">
                 USWDS Starter Project
-              </a>
+              </Link>
             </em>
           </div>
         </div>
