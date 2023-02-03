@@ -3,7 +3,7 @@ import Script from "next/script";
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en-US">
       <Head>
         <Script
           src="assets/js/uswds-init.min.js"
