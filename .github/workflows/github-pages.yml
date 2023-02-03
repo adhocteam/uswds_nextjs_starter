@@ -46,7 +46,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Static HTML export with Next.js
-        run: npm run export
+        run: BASE_PATH="/${{ github.event.repository.name }}" npm run export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
