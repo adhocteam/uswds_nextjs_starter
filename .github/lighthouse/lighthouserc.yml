@@ -1,0 +1,7 @@
+ci:
+  collect:
+    numberOfRuns: 1
+  assert:
+    assertions:
+      categories:
+        accessibility: [error, { minScore: 100 }]
