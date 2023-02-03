@@ -17,8 +17,11 @@ To build it manually, run `npm run export`, and you will find the site in the
 
 ## Accessibility
 
-On every push, the [CI job](.github/workflows/ci.yml) runs ESLint,
-and should verify that you're following some best practices.
+On every push, the [CI job](.github/workflows/ci.yml):
+
+- runs ESLint with the reasonably strict [core web vitals](https://nextjs.org/docs/basic-features/eslint#core-web-vitals) preset
+- runs [Lighthouse CI](https://github.com/treosh/lighthouse-ci-action) and fails if the accessibility score isn't 100%
+  - config is located in the `.github/lighthouse` directory
 
 This template should maintain the highest standards for accessibility, and I
 would like to implement more tooling for it, but I also don't know what I'm
