@@ -32,7 +32,7 @@ export default function Home() {
       </main>
       <Footer />
       <Nav />
-      <Script src="assets/js/uswds.min.js" />
+      <Script src="uswds/js/uswds.min.js" />
     </div>
   );
 }

@@ -5,10 +5,7 @@ export default function Document() {
   return (
     <Html lang="en-US">
       <Head>
-        <Script
-          src="assets/js/uswds-init.min.js"
-          strategy="beforeInteractive"
-        />
+        <Script src="uswds/js/uswds-init.min.js" strategy="beforeInteractive" />
       </Head>
       <body>
         <Main />

@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import rssFeed from "/assets/img/usa-icons/rss_feed.svg";
-import logoImg from "/assets/img/logo-img.png";
-import facebook from "/assets/img/usa-icons/facebook.svg";
-import twitter from "/assets/img/usa-icons/twitter.svg";
-import youtube from "/assets/img/usa-icons/youtube.svg";
-import instagram from "/assets/img/usa-icons/instagram.svg";
+import rssFeed from "/public/uswds/img/usa-icons/rss_feed.svg";
+import logoImg from "/public/uswds/img/logo-img.png";
+import facebook from "/public/uswds/img/usa-icons/facebook.svg";
+import twitter from "/public/uswds/img/usa-icons/twitter.svg";
+import youtube from "/public/uswds/img/usa-icons/youtube.svg";
+import instagram from "/public/uswds/img/usa-icons/instagram.svg";
 
 export default function Footer() {
   return (
