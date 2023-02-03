@@ -15,6 +15,10 @@ job](.github/workflows/ci.yml).
 To build it manually, run `npm run export`, and you will find the site in the
 `out` directory
 
+## Development
+
+Run `npm run dev` to turn on the dev server with hot reloading
+
 ## Accessibility
 
 On every push, the [CI job](.github/workflows/ci.yml):
@@ -28,16 +32,10 @@ would like to implement more tooling for it, but I also don't know what I'm
 doing - see [issue #3](https://github.com/adhocteam/uswds_starter/issues/3) if
 you want to help out
 
-## Changing USWDS variables
+## Changing USWDS sass variables
 
-Currently, you need to run `npm run css` if you modify any of the USWDS sass
-variables, contained in `assets/stylesheets/uswds-settings.scss` (or if you
-edit any other sass file). This will compile the sass to CSS to a file in
-`assets/stylesheets/styles.css`, which is then used by the application.
-
-Next.js has native [sass
-integration](https://nextjs.org/docs/basic-features/built-in-css-support#sass-support)
-but I didn't figure out how to use it
-properly with USWDS. I would love help figuring this out! See [issue
-#1](https://github.com/adhocteam/uswds_starter/issues/1) for my documentation
-of things I tried.
+If you update any [uswds
+settings](https://designsystem.digital.gov/documentation/settings/) in [the
+uswds settings sass file](assets/stylesheets/uswds-settings.scss) while you're
+running the dev mode server, you'll see your changes reflected in the page as
+soon as it compiles.
