@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import circle from "/assets/img/circle-124.png";
+import circle from "/public/uswds/img/circle-124.png";
 
 export default function GridContainer() {
   return (

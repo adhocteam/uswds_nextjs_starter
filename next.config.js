@@ -7,7 +7,6 @@ module.exports = {
   sassOptions: {
     includePaths: [
       path.join(__dirname, "node_modules", "@uswds", "uswds", "packages"),
-      path.join(__dirname, "node_modules"),
     ],
   },
 };

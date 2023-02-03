@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import smallFlag from "../assets/img/us_flag_small.png";
-import iconDotGov from "../assets/img/icon-dot-gov.svg";
-import iconHttps from "/assets/img/icon-https.svg";
+import smallFlag from "/public/uswds/img/us_flag_small.png";
+import iconDotGov from "/public/uswds/img/icon-dot-gov.svg";
+import iconHttps from "/public/uswds/img/icon-https.svg";
 
 export default function Banner() {
   return (

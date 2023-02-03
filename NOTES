@@ -63,3 +63,7 @@ https://designsystem.digital.gov/documentation/developers/
     - complained about importing scripts directly, so used the <Script> element
 
 https://nextjs.org/docs/messages/no-script-tags-in-head-component
+
+- TODO: copy uswds assets to public/ in a postinstall step, like the nava repo:
+
+https://github.com/navapbc/template-application-nextjs
