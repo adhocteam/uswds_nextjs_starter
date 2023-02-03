@@ -33,7 +33,7 @@ jobs:
           # give enough time for the server to start and be ready to accept
           # connections... can get fancier but this should do
           sleep 3
-      - name: Audit URLs using Lighthouse
+      - name: Run Lighthouse Audit and assert 100% accessibility
         # https://github.com/treosh/lighthouse-ci-action
         uses: treosh/lighthouse-ci-action@v9
         with:
