@@ -24,7 +24,7 @@ jobs:
         run: npm ci
       - name: Start server in bg
         run: |
-          npm run start &
+          npm run dev &
           # give enough time for the server to start and be ready to accept
           # connections... can get fancier but this should do
           sleep 3
