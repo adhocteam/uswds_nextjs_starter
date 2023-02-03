@@ -10,4 +10,4 @@ ci:
     assertions:
       categories:accessibility:
         - error
-        - minScore: 100
+        - minScore: 1
