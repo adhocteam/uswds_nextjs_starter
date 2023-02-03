@@ -10,7 +10,7 @@ Visit the page that this site generates at
 ## Deployment
 
 This repository deploys to github pages on every push, via [this workflow
-job](.github/workflows/ci.yml).
+job](.github/workflows/github-pages.yml).
 
 To build it manually, run `npm run export`, and you will find the site in the
 `out` directory
