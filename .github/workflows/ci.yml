@@ -25,7 +25,7 @@ jobs:
         run: npm ci
       # run eslint
       - name: Lint
-        run: ${{ steps.detect-package-manager.outputs.runner }} next lint
+        run: npm next lint
       # start server so we can run lighthouse against it
       - name: Start server in bg
         run: |
