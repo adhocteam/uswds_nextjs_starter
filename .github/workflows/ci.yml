@@ -42,7 +42,8 @@ jobs:
           uploadArtifacts: true
           temporaryPublicStorage: true
           configPath: ".github/lighthouse/lighthouserc.yml"
-      - name: Run axe
+      - name: axe-core and pa11y checks
         run: |
-          npm install -g @axe-core/cli
+          npm install -g @axe-core/cli pa11y
           axe http://localhost:3000 --exit
+          pa11y http://localhost:3000
