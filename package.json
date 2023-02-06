@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node_modules/.bin/next dev",
     "build": "node_modules/.bin/next build",
-    "export": "node_modules/.bin/next build && node_modules/.bin/next export",
+    "export": "bash scripts/export.sh",
     "start": "node_modules/.bin/next start",
     "lint": "node_modules/.bin/next lint"
   },

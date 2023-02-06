@@ -5,8 +5,8 @@ module.exports = {
     unoptimized: true,
   },
   reactStrictMode: true,
-  basePath: process.env.BASE_PATH ? process.env.BASE_PATH : "",
-  assetPrefix: process.env.BASE_PATH ? process.env.BASE_PATH : "",
+  basePath: process.env.BASE_PATH ? process.env.BASE_PATH : undefined,
+  assetPrefix: process.env.BASE_PATH ? process.env.BASE_PATH : undefined,
   sassOptions: {
     includePaths: [
       path.join(__dirname, "node_modules", "@uswds", "uswds", "packages"),
