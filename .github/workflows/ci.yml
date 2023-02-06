@@ -46,4 +46,4 @@ jobs:
         run: |
           npm install -g @axe-core/cli pa11y
           axe http://localhost:3000 --exit
-          pa11y http://localhost:3000
+          pa11y --debug http://localhost:3000
