@@ -26,11 +26,15 @@ On every push, the [CI job](.github/workflows/ci.yml):
 - runs ESLint with the reasonably strict [core web vitals](https://nextjs.org/docs/basic-features/eslint#core-web-vitals) preset
 - runs [Lighthouse CI](https://github.com/treosh/lighthouse-ci-action) and fails if the accessibility score isn't 100%
   - config is located in the `.github/lighthouse` directory
+- runs [axe](https://www.npmjs.com/package/@axe-core/cli) and fails if anything doesn't pass
 
 This template should maintain the highest standards for accessibility, and I
 would like to implement more tooling for it, but I also don't know what I'm
 doing - see [issue #3](https://github.com/adhocteam/uswds_starter/issues/3) if
 you want to help out
+
+Check out [accessibility.digital.gov](https://accessibility.digital.gov) for
+good resources on why this is so important
 
 ## Changing USWDS sass variables
 
