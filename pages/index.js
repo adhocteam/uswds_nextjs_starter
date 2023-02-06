@@ -22,7 +22,7 @@ export default function Home() {
         search bar here but the code for it isn't present in the box below the
         image */}
       <Header />
-      <main>
+      <main id="main-content" tabindex="-1">
         <Hero />
         <Tagline />
         <GridContainer />
