@@ -32,7 +32,7 @@ export default function Banner() {
                 aria-hidden="true"
               >
                 <p className="usa-banner__header-text">
-                  An unofficial website of the United States government
+                  Not An official website of the United States government
                 </p>
                 <p className="usa-banner__header-action">Here’s how you know</p>
               </div>
@@ -64,7 +64,7 @@ export default function Banner() {
                 <div className="usa-media-block__body">
                   <p>
                     <strong>Official websites use .gov</strong>
-                    <br />A<strong>.gov</strong> website belongs to an official
+                    <br />A <strong>.gov</strong> website belongs to an official
                     government organization in the United States.
                   </p>
                 </div>
@@ -80,7 +80,7 @@ export default function Banner() {
                 <div className="usa-media-block__body">
                   <p>
                     <strong>Secure .gov websites use HTTPS</strong>
-                    <br />A<strong>lock</strong> (
+                    <br />A <strong>lock</strong> (
                     <span className="icon-lock">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
