@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Script from "next/script";
-import Banner from "../components/banner";
 import Header from "../components/header";
 import Hero from "../components/hero";
 import Tagline from "../components/tagline";
@@ -18,13 +17,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Banner />
       {/* XXX: The template image on the docs page
         (https://designsystem.digital.gov/templates/landing-page/) shows a
         search bar here but the code for it isn't present in the box below the
         image */}
       <Header />
-      <main>
+      <main id="main-content" tabindex="-1">
         <Hero />
         <Tagline />
         <GridContainer />

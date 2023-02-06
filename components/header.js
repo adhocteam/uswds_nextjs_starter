@@ -1,8 +1,11 @@
 import Link from "next/link";
 
+import Banner from "./banner";
+
 export default function Header() {
   return (
     <header className="usa-header usa-header--basic">
+      <Banner />
       <div className="usa-nav-container">
         <div className="usa-navbar">
           <div className="usa-logo" id="-logo">
