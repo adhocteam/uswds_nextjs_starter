@@ -71,3 +71,12 @@ https://github.com/navapbc/template-application-nextjs
 - To make the SVGs into importable react SVGs, I installed svgr (1npm install @svgr/cli`), then:
 
 svgr --out-dir components/icons -- public/uswds/img/usa-icons
+
+- To push a v1.0 tag:
+
+$ git tag -a v1.0 -m "version 1.0.0"
+10:40 AM lexeme:~/adhoc/cto/uswds_starter  main
+$ gp
+Everything up-to-date
+10:40 AM lexeme:~/adhoc/cto/uswds_starter  main
+$ git push --tags
