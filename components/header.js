@@ -11,7 +11,9 @@ export default function Header() {
           <div className="usa-logo" id="-logo">
             <em className="usa-logo__text">
               <Link href="/" title="USWDS Starter Project">
-                USWDS Starter Project
+                The Ad Hoc{" "}
+                <abbr title="United States Web Design System">USWDS</abbr>{" "}
+                Starter Template
               </Link>
             </em>
           </div>

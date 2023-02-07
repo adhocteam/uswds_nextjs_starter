@@ -67,3 +67,7 @@ https://nextjs.org/docs/messages/no-script-tags-in-head-component
 - TODO: copy uswds assets to public/ in a postinstall step, like the nava repo:
 
 https://github.com/navapbc/template-application-nextjs
+
+- To make the SVGs into importable react SVGs, I installed svgr (1npm install @svgr/cli`), then:
+
+svgr --out-dir components/icons -- public/uswds/img/usa-icons

@@ -1,6 +1,10 @@
 import Image from "next/image";
 
 import circle from "/public/uswds/img/circle-124.png";
+import SvgAccessibleForward from "./icons/AccessibleForward.js";
+import SvgBuild from "./icons/Build.js";
+import SvgConstructionWorker from "./icons/ConstructionWorker.js";
+import SvgGithub from "./icons/Github.js";
 
 export default function GridContainer() {
   return (
@@ -8,72 +12,145 @@ export default function GridContainer() {
       <div className="grid-container">
         <div className="usa-graphic-list__row grid-row grid-gap">
           <div className="usa-media-block tablet:grid-col">
-            <Image
+            {/*style={{
+                "background-color": "color(srgb 0.001 0.4424 0.737)",
+                "border-radius": "50%",
+              */}
+            <div
+              style={{
+                width: 124,
+                height: 124,
+                "background-color": "color(srgb 0.001 0.4424 0.737)",
+                "border-radius": "50%",
+              }}
               className="usa-media-block__img"
-              src={circle}
-              alt="Alt text"
-            />
+            >
+              <SvgAccessibleForward
+                alt="Accessible by default"
+                viewBox="0 0 25 25"
+                style={{
+                  fill: "white",
+                  stroke: "grey",
+                  "stroke-width": ".25px",
+                  width: 124,
+                  height: 124,
+                  "background-color": "color(srgb 0.001 0.4424 0.737)",
+                  "border-radius": "50%",
+                }}
+              />
+            </div>
             <div className="usa-media-block__body">
               <h2 className="usa-graphic-list__heading">
-                Graphic headings can vary.
+                Accessible by default
               </h2>
               <p>
-                Graphic headings can be used a few different ways, depending on
-                what your landing page is for. Highlight your values, specific
-                program areas, or results.
+                The USWDS provides an accessible base, and every PR is
+                automatically linted by lighthouse and axe
               </p>
             </div>
           </div>
           <div className="usa-media-block tablet:grid-col">
-            <Image
+            <div
+              style={{
+                width: 124,
+                height: 124,
+                "background-color": "color(srgb 0.001 0.4424 0.737)",
+                "border-radius": "50%",
+              }}
               className="usa-media-block__img"
-              src={circle}
-              alt="Alt text"
-            />
+            >
+              <SvgBuild
+                alt="Easy to get started"
+                viewBox="-5 -5 35 35"
+                style={{
+                  fill: "white",
+                  stroke: "grey",
+                  "stroke-width": ".25px",
+                  width: 124,
+                  height: 124,
+                  "background-color": "color(srgb 0.001 0.4424 0.737)",
+                  "border-radius": "50%",
+                }}
+              />
+            </div>
             <div className="usa-media-block__body">
-              <h2 className="usa-graphic-list__heading">
-                Stick to 6 or fewer words.
-              </h2>
+              <h2 className="usa-graphic-list__heading">Easy to start</h2>
               <p>
-                Keep body text to about 30 words. They can be shorter, but try
-                to be somewhat balanced across all four. It creates a clean
-                appearance with good spacing.
+                Clone the repository and get building right away, with rapid
+                feedback
               </p>
             </div>
           </div>
         </div>
         <div className="usa-graphic-list__row grid-row grid-gap">
           <div className="usa-media-block tablet:grid-col">
-            <Image
+            <div
+              style={{
+                width: 124,
+                height: 124,
+                "background-color": "color(srgb 0.001 0.4424 0.737)",
+                "border-radius": "50%",
+              }}
               className="usa-media-block__img"
-              src={circle}
-              alt="Alt text"
-            />
+            >
+              <SvgConstructionWorker
+                alt="Technologies you already use"
+                viewBox="-5 -5 35 35"
+                style={{
+                  fill: "white",
+                  stroke: "grey",
+                  "stroke-width": ".25px",
+                  width: 124,
+                  height: 124,
+                  "background-color": "color(srgb 0.001 0.4424 0.737)",
+                  "border-radius": "50%",
+                }}
+              />
+            </div>
             <div className="usa-media-block__body">
               <h2 className="usa-graphic-list__heading">
-                Never highlight anything without a goal.
+                Technologies you already use
               </h2>
               <p>
-                For anything you want to highlight here, understand what your
-                users know now, and what activity or impression you want from
-                them after they see it.
+                Built with the USWDS, react, and next.js so that you have a
+                great foundation to work from
               </p>
             </div>
           </div>
           <div className="usa-media-block tablet:grid-col">
-            <Image
+            <div
+              style={{
+                width: 124,
+                height: 124,
+                "background-color": "color(srgb 0.001 0.4424 0.737)",
+                "border-radius": "50%",
+              }}
               className="usa-media-block__img"
-              src={circle}
-              alt="Alt text"
-            />
+            >
+              {/* How do I get this centered without monkeying with viewBox */}
+              <SvgGithub
+                alt="All Open Source"
+                viewBox="-1 -1 26 26"
+                style={{
+                  fill: "white",
+                  stroke: "grey",
+                  "stroke-width": ".25px",
+                  width: 124,
+                  height: 124,
+                  "background-color": "color(srgb 0.001 0.4424 0.737)",
+                  "border-radius": "50%",
+                }}
+              />
+            </div>
             <div className="usa-media-block__body">
-              <h2 className="usa-graphic-list__heading">
-                Could also have 2 or 6.
-              </h2>
+              <h2 className="usa-graphic-list__heading">All Open Source</h2>
               <p>
-                In addition to your goal, find out your users’ goals. What do
-                they want to know or do that supports your mission? Use these
-                headings to show those.
+                Come to{" "}
+                <a href="https://github.com/adhocteam/uswds_starter">
+                  our github
+                </a>{" "}
+                and report any problems you encounter or help us build new
+                features
               </p>
             </div>
           </div>
