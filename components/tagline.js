@@ -4,21 +4,32 @@ export default function Tagline() {
       <div className="grid-row grid-gap">
         <div className="tablet:grid-col-4">
           <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0">
-            A tagline highlights your approach
+            Get started in no time
           </h2>
         </div>
         <div className="tablet:grid-col-8 usa-prose">
           <p>
-            The tagline should inspire confidence and interest, focusing on the
-            value that your overall approach offers to your audience. Use a
-            heading typeface and keep your tagline to just a few words, and
-            don’t confuse or mystify.
+            The United States Web Design System starter template is designed to
+            get you going with a USWDS and next.js starter template as quickly
+            and simply as possible so you can create a quick static prototype
+            site or begin your work on a production site.
           </p>
           <p>
-            Use the right side of the grid to explain the tagline a bit more.
-            What are your goals? How do you do your work? Write in the present
-            tense, and stay brief here. People who are interested can find
-            details on internal pages.
+            Visit the{" "}
+            <a
+              href="https://github.com/adhocteam/uswds_starter"
+              className="usa-link usa-link--alt usa-link--external"
+            >
+              {" "}
+              github page
+            </a>{" "}
+            to join us and collaborate on making a better template, or just
+            clone it and use it to get yourself under way as simply as possible.
+          </p>
+          <p>
+            You can find more information about the USWDS at{" "}
+            <a href="https://designsystem.digital.gov">their website</a> and{" "}
+            <a href="https://github.com/uswds">their github account</a>.
           </p>
         </div>
       </div>
