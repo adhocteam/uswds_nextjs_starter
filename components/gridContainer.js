@@ -13,15 +13,15 @@ export default function GridContainer() {
         <div className="usa-graphic-list__row grid-row grid-gap">
           <div className="usa-media-block tablet:grid-col">
             {/*style={{
-                "background-color": "color(srgb 0.001 0.4424 0.737)",
-                "border-radius": "50%",
+                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                borderRadius: "50%",
               */}
             <div
               style={{
                 width: 124,
                 height: 124,
-                "background-color": "color(srgb 0.001 0.4424 0.737)",
-                "border-radius": "50%",
+                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                borderRadius: "50%",
               }}
               className="usa-media-block__img"
             >
@@ -31,11 +31,11 @@ export default function GridContainer() {
                 style={{
                   fill: "white",
                   stroke: "grey",
-                  "stroke-width": ".25px",
+                  strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  "background-color": "color(srgb 0.001 0.4424 0.737)",
-                  "border-radius": "50%",
+                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  borderRadius: "50%",
                 }}
               />
             </div>
@@ -54,8 +54,8 @@ export default function GridContainer() {
               style={{
                 width: 124,
                 height: 124,
-                "background-color": "color(srgb 0.001 0.4424 0.737)",
-                "border-radius": "50%",
+                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                borderRadius: "50%",
               }}
               className="usa-media-block__img"
             >
@@ -65,11 +65,11 @@ export default function GridContainer() {
                 style={{
                   fill: "white",
                   stroke: "grey",
-                  "stroke-width": ".25px",
+                  strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  "background-color": "color(srgb 0.001 0.4424 0.737)",
-                  "border-radius": "50%",
+                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  borderRadius: "50%",
                 }}
               />
             </div>
@@ -88,8 +88,8 @@ export default function GridContainer() {
               style={{
                 width: 124,
                 height: 124,
-                "background-color": "color(srgb 0.001 0.4424 0.737)",
-                "border-radius": "50%",
+                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                borderRadius: "50%",
               }}
               className="usa-media-block__img"
             >
@@ -99,11 +99,11 @@ export default function GridContainer() {
                 style={{
                   fill: "white",
                   stroke: "grey",
-                  "stroke-width": ".25px",
+                  strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  "background-color": "color(srgb 0.001 0.4424 0.737)",
-                  "border-radius": "50%",
+                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  borderRadius: "50%",
                 }}
               />
             </div>
@@ -122,8 +122,8 @@ export default function GridContainer() {
               style={{
                 width: 124,
                 height: 124,
-                "background-color": "color(srgb 0.001 0.4424 0.737)",
-                "border-radius": "50%",
+                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                borderRadius: "50%",
               }}
               className="usa-media-block__img"
             >
@@ -134,11 +134,11 @@ export default function GridContainer() {
                 style={{
                   fill: "white",
                   stroke: "grey",
-                  "stroke-width": ".25px",
+                  strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  "background-color": "color(srgb 0.001 0.4424 0.737)",
-                  "border-radius": "50%",
+                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  borderRadius: "50%",
                 }}
               />
             </div>
