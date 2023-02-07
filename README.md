@@ -17,7 +17,7 @@ To build it manually, run `npm run export`, and you will find the site in the
 
 ## Development
 
-Run `npm run dev` to turn on the dev server with hot reloading
+Run `npm install` then `npm run dev` to turn on the dev server with hot reloading
 
 ## Accessibility
 
