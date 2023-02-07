@@ -44,6 +44,13 @@ uswds settings sass file](assets/stylesheets/uswds-settings.scss) while you're
 running the dev mode server, you'll see your changes reflected in the page as
 soon as it compiles.
 
+## Contributing
+
+This repo accepts contributions! Just file a PR.
+
+Feel free to create a discussion topic if you have an idea and you want
+feedback on it before starting to work on it.
+
 ## Similar repositories
 
 - [navapbc/template-application-nextjs](https://github.com/navapbc/template-application-nextjs) is a similar template app with next.js + react and a somewhat different focus
