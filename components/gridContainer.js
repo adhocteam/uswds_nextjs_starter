@@ -74,7 +74,7 @@ export default function GridContainer() {
               />
             </div>
             <div className="usa-media-block__body">
-              <h2 className="usa-graphic-list__heading">Easy to start</h2>
+              <h2 className="usa-graphic-list__heading">Easy to get started</h2>
               <p>
                 Clone the repository and get building right away, with rapid
                 feedback
@@ -95,7 +95,7 @@ export default function GridContainer() {
             >
               <SvgConstructionWorker
                 alt="Technologies you already use"
-                viewBox="-5 -5 35 35"
+                viewBox="0 0 25 25"
                 style={{
                   fill: "white",
                   stroke: "grey",
