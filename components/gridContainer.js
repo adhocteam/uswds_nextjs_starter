@@ -13,15 +13,15 @@ export default function GridContainer() {
         <div className="usa-graphic-list__row grid-row grid-gap">
           <div className="usa-media-block tablet:grid-col">
             {/*style={{
-                "background-color": "color(srgb 0.001 0.4424 0.737)",
-                "border-radius": "50%",
+                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                borderRadius: "50%",
               */}
             <div
               style={{
                 width: 124,
                 height: 124,
-                "background-color": "color(srgb 0.001 0.4424 0.737)",
-                "border-radius": "50%",
+                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                borderRadius: "50%",
               }}
               className="usa-media-block__img"
             >
@@ -31,11 +31,11 @@ export default function GridContainer() {
                 style={{
                   fill: "white",
                   stroke: "grey",
-                  "stroke-width": ".25px",
+                  strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  "background-color": "color(srgb 0.001 0.4424 0.737)",
-                  "border-radius": "50%",
+                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  borderRadius: "50%",
                 }}
               />
             </div>
@@ -54,8 +54,8 @@ export default function GridContainer() {
               style={{
                 width: 124,
                 height: 124,
-                "background-color": "color(srgb 0.001 0.4424 0.737)",
-                "border-radius": "50%",
+                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                borderRadius: "50%",
               }}
               className="usa-media-block__img"
             >
@@ -65,16 +65,16 @@ export default function GridContainer() {
                 style={{
                   fill: "white",
                   stroke: "grey",
-                  "stroke-width": ".25px",
+                  strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  "background-color": "color(srgb 0.001 0.4424 0.737)",
-                  "border-radius": "50%",
+                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  borderRadius: "50%",
                 }}
               />
             </div>
             <div className="usa-media-block__body">
-              <h2 className="usa-graphic-list__heading">Easy to start</h2>
+              <h2 className="usa-graphic-list__heading">Easy to get started</h2>
               <p>
                 Clone the repository and get building right away, with rapid
                 feedback
@@ -88,22 +88,22 @@ export default function GridContainer() {
               style={{
                 width: 124,
                 height: 124,
-                "background-color": "color(srgb 0.001 0.4424 0.737)",
-                "border-radius": "50%",
+                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                borderRadius: "50%",
               }}
               className="usa-media-block__img"
             >
               <SvgConstructionWorker
                 alt="Technologies you already use"
-                viewBox="-5 -5 35 35"
+                viewBox="0 0 25 25"
                 style={{
                   fill: "white",
                   stroke: "grey",
-                  "stroke-width": ".25px",
+                  strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  "background-color": "color(srgb 0.001 0.4424 0.737)",
-                  "border-radius": "50%",
+                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  borderRadius: "50%",
                 }}
               />
             </div>
@@ -122,8 +122,8 @@ export default function GridContainer() {
               style={{
                 width: 124,
                 height: 124,
-                "background-color": "color(srgb 0.001 0.4424 0.737)",
-                "border-radius": "50%",
+                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                borderRadius: "50%",
               }}
               className="usa-media-block__img"
             >
@@ -134,11 +134,11 @@ export default function GridContainer() {
                 style={{
                   fill: "white",
                   stroke: "grey",
-                  "stroke-width": ".25px",
+                  strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  "background-color": "color(srgb 0.001 0.4424 0.737)",
-                  "border-radius": "50%",
+                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  borderRadius: "50%",
                 }}
               />
             </div>
