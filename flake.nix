@@ -32,5 +32,24 @@
           ];
         };
       });
+
+      packages = forAllSystems ({ pkgs }: {
+        default = pkgs.buildNpmPackage {
+          name = "uswds-starter";
+
+          buildInputs = with pkgs; [
+            nodejs-18_x
+          ];
+
+          src = ./.;
+          npmDepsHash = "sha256-3NPW6F1cOqM/KHYZL7bUJ2wBrnmQOQf0CgdXf7z2adI=";
+
+          installPhase = ''
+            mkdir $out
+            npm run export
+            cp -pR out/* $out/
+          '';
+        };
+      });
     };
 }
