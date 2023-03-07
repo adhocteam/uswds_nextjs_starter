@@ -10,7 +10,7 @@ export default function Tagline() {
         <div className="tablet:grid-col-8 usa-prose">
           <p>
             The United States Web Design System starter template is designed to
-            get you going with a USWDS and next.js starter template as quickly
+            get you going with a USWDS and Next.js starter template as quickly
             and simply as possible so you can create a quick static prototype
             site or begin your work on a production site.
           </p>
@@ -21,7 +21,7 @@ export default function Tagline() {
               className="usa-link usa-link--alt usa-link--external"
             >
               {" "}
-              github page
+              GitHub page
             </a>{" "}
             to join us and collaborate on making a better template, or just
             clone it and use it to get yourself under way as simply as possible.
@@ -29,7 +29,7 @@ export default function Tagline() {
           <p>
             You can find more information about the USWDS at{" "}
             <a href="https://designsystem.digital.gov">their website</a> and{" "}
-            <a href="https://github.com/uswds">their github account</a>.
+            <a href="https://github.com/uswds">their GitHub account</a>.
           </p>
         </div>
       </div>

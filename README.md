@@ -53,4 +53,4 @@ feedback on it before starting to work on it.
 
 ## Similar repositories
 
-- [navapbc/template-application-nextjs](https://github.com/navapbc/template-application-nextjs) is a similar template app with next.js + react and a somewhat different focus
+- [navapbc/template-application-nextjs](https://github.com/navapbc/template-application-nextjs) is a similar template app with Next.js + React and a somewhat different focus

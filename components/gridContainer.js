@@ -112,7 +112,7 @@ export default function GridContainer() {
                 Technologies you already use
               </h2>
               <p>
-                Built with the USWDS, react, and next.js so that you have a
+                Built with the USWDS, React, and Next.js so that you have a
                 great foundation to work from
               </p>
             </div>
@@ -147,7 +147,7 @@ export default function GridContainer() {
               <p>
                 Come to{" "}
                 <a href="https://github.com/adhocteam/uswds_starter">
-                  our github
+                  our GitHub
                 </a>{" "}
                 and report any problems you encounter or help us build new
                 features
