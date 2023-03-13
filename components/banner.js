@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import smallFlag from "/public/uswds/img/us_flag_small.png";
-import iconDotGov from "/public/uswds/img/icon-dot-gov.svg";
-import iconHttps from "/public/uswds/img/icon-https.svg";
+import smallFlag from "../public/uswds/img/us_flag_small.png";
+import iconDotGov from "../public/uswds/img/icon-dot-gov.svg";
+import iconHttps from "../public/uswds/img/icon-https.svg";
 
 export default function Banner() {
   return (
@@ -60,6 +60,8 @@ export default function Banner() {
                   role="img"
                   alt=""
                   aria-hidden="true"
+                  width="64"
+                  height="64"
                 />
                 <div className="usa-media-block__body">
                   <p>
@@ -76,6 +78,8 @@ export default function Banner() {
                   role="img"
                   alt=""
                   aria-hidden="true"
+                  width="64"
+                  height="64"
                 />
                 <div className="usa-media-block__body">
                   <p>
