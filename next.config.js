@@ -1,5 +1,4 @@
 const path = require("path");
-const withPurgeCss = require("next-purgecss");
 
 module.exports = {
   images: {
@@ -15,4 +14,4 @@ module.exports = {
   },
 };
 
-module.exports = withPurgeCss(module.exports);
+module.exports = module.exports;
