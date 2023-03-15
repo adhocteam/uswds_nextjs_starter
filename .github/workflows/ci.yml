@@ -44,5 +44,6 @@ jobs:
           configPath: ".github/lighthouse/lighthouserc.yml"
       - name: Run axe
         run: |
-          npm install -g @axe-core/cli
-          axe http://localhost:3000 --exit
+          npm install -g @axe-core/cli@4.6.3 chromedriver@109
+          # https://github.com/dequelabs/axe-core-npm/issues/679#issuecomment-1456590620
+          axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:3000 --exit
