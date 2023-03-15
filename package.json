@@ -18,7 +18,7 @@
     "@svgr/cli": "^6.5.1",
     "@uswds/uswds": "^3.3.0",
     "eslint-config-next": "^13.1.6",
-    "next": "^13.1.6",
+    "next": "^13.2.4",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^8.0.1",
     "purgecss": "^5.0.0",
