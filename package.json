@@ -14,12 +14,17 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "@svgr/cli": "^6.5.1",
     "@uswds/uswds": "^3.3.0",
     "eslint-config-next": "^13.1.6",
-    "next": "^13.1.6",
+    "next": "^13.2.4",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^8.0.1",
+    "purgecss": "^5.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
     "sass": "^1.58.0"
