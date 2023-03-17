@@ -1,7 +1,7 @@
 {
-  "name": "uswds_starter",
+  "name": "uswds_nextjs_starter",
   "version": "1.0.0",
-  "description": "accessible USWDS starting point",
+  "description": "accessible USWDS starting point using next.js and react",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

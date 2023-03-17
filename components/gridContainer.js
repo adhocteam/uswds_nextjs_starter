@@ -146,7 +146,7 @@ export default function GridContainer() {
               <h2 className="usa-graphic-list__heading">All Open Source</h2>
               <p>
                 Come to{" "}
-                <a href="https://github.com/adhocteam/uswds_starter">
+                <a href="https://github.com/adhocteam/uswds_nextjs_starter">
                   our GitHub
                 </a>{" "}
                 and report any problems you encounter or help us build new

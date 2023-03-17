@@ -1,11 +1,11 @@
-# USWDS Starter
+# USWDS NextJS Starter
 
 This repository aims to get you up and running with a simple [US Web Design
 System](https://designsystem.digital.gov/) site using React as quickly and
 simply as possible, to facilitate new sites or easy prototyping.
 
 Visit the page that this site generates at
-[https://adhocteam.github.io/uswds_starter/](https://adhocteam.github.io/uswds_starter/)
+[https://adhocteam.github.io/uswds_nextjs_starter/](https://adhocteam.github.io/uswds_nextjs_starter/)
 
 ## Deployment
 
@@ -30,7 +30,7 @@ On every push, the [CI job](.github/workflows/ci.yml):
 
 This template should maintain the highest standards for accessibility, and I
 would like to implement more tooling for it, but I also don't know what I'm
-doing - see [issue #3](https://github.com/adhocteam/uswds_starter/issues/3) if
+doing - see [issue #3](https://github.com/adhocteam/uswds_nextjs_starter/issues/3) if
 you want to help out
 
 Check out [accessibility.digital.gov](https://accessibility.digital.gov) for

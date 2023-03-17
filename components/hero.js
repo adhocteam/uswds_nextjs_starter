@@ -12,7 +12,7 @@ export default function Hero() {
           <p>
             Clone{" "}
             <a
-              href="https://github.com/adhocteam/uswds_starter"
+              href="https://github.com/adhocteam/uswds_nextjs_starter"
               className="usa-link usa-link--alt usa-link--external"
             >
               this repository
@@ -23,7 +23,7 @@ export default function Hero() {
           </p>
           <a
             className="usa-button"
-            href="https://github.com/adhocteam/uswds_starter"
+            href="https://github.com/adhocteam/uswds_nextjs_starter"
           >
             Visit the repository
           </a>
