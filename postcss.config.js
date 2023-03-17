@@ -21,19 +21,15 @@ module.exports = {
           "./pages/**/*.{js,jsx,ts,tsx}",
           "./components/**/*.{js,jsx,ts,tsx}",
         ],
-        defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
+        /* it's important that the first character class here includes a
+         * backslash, because sass generates css selector names that include a
+         * backslash like: ".mobile-lg\:grid-col", which we need to make sure
+         * that purge parses as a single selector. purgecess does not propely
+         * parse CSS, so we have to be kind of loose here to get it to work. */
+        defaultExtractor: (content) => content.match(/[\w-/\\:]+(?<!:)/g) || [],
         safelist: {
           standard: ["html", "body"],
-          /* purgecss fails to properly handle the escaped colons that sass puts out:
-           * https://github.com/FullHuman/purgecss/issues/1086
-           *
-           * I'm sure these rules include more CSS back in than is necessary,
-           * but let's be safe rather than sorry. In particular, they do not
-           * include the :grid-offset set of rules.
-           *
-           * I'd really like to find a better solution here
-           * */
-          greedy: [/grid-col/, /grid-row/],
+          greedy: [],
         },
       },
     ],
