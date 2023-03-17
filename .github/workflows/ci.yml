@@ -44,6 +44,11 @@ jobs:
           configPath: ".github/lighthouse/lighthouserc.yml"
       - name: Run axe
         run: |
-          npm install -g @axe-core/cli@4.6.0 chromedriver@109
+          # I have to keep setting the chromedriver version to whatever version
+          # is present on the CI box, eventually I should figure out how to pin
+          # the version of chrome that I'm using, or to pull it dynamically and
+          # insert it here
+          npm install -g @axe-core/cli@4.6.0 chromedriver@111
+
           # https://github.com/dequelabs/axe-core-npm/issues/679#issuecomment-1456590620
           axe --chromedriver-path $(npm root -g)/chromedriver/bin/chromedriver http://localhost:3000 --exit
