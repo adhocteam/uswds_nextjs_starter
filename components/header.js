@@ -13,7 +13,7 @@ export default function Header() {
               <Link href="/" title="USWDS Starter Project">
                 The Ad Hoc{" "}
                 <abbr title="United States Web Design System">USWDS</abbr>{" "}
-                Starter Template
+                Next.js Starter Template
               </Link>
             </em>
           </div>
