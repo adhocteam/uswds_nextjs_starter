@@ -17,7 +17,6 @@ module.exports = {
       "@fullhuman/postcss-purgecss",
       {
         content: [
-          "./out/index.html",
           "./pages/**/*.{js,jsx,ts,tsx}",
           "./components/**/*.{js,jsx,ts,tsx}",
         ],
