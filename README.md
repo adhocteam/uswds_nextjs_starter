@@ -28,11 +28,6 @@ On every push, the [CI job](.github/workflows/ci.yml):
   - config is located in the `.github/lighthouse` directory
 - runs [axe](https://www.npmjs.com/package/@axe-core/cli) and fails if anything doesn't pass
 
-This template should maintain the highest standards for accessibility, and I
-would like to implement more tooling for it, but I also don't know what I'm
-doing - see [issue #3](https://github.com/adhocteam/uswds_nextjs_starter/issues/3) if
-you want to help out
-
 Check out [accessibility.digital.gov](https://accessibility.digital.gov) for
 good resources on why this is so important
 
@@ -53,4 +48,5 @@ feedback on it before starting to work on it.
 
 ## Similar repositories
 
+- [adhocteam/uswds_html_starter](https://github.com/adhocteam/uswds_html_starter) is a similar USWDS starter project, but using plain HTML
 - [navapbc/template-application-nextjs](https://github.com/navapbc/template-application-nextjs) is a similar template app with Next.js + React and a somewhat different focus
