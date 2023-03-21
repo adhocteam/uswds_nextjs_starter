@@ -1,6 +1,3 @@
-import Image from "next/image";
-
-import circle from "/public/uswds/img/circle-124.png";
 import SvgAccessibleForward from "./icons/AccessibleForward.js";
 import SvgBuild from "./icons/Build.js";
 import SvgConstructionWorker from "./icons/ConstructionWorker.js";
@@ -12,15 +9,11 @@ export default function GridContainer() {
       <div className="grid-container">
         <div className="usa-graphic-list__row grid-row grid-gap">
           <div className="usa-media-block tablet:grid-col">
-            {/*style={{
-                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
-                borderRadius: "50%",
-              */}
             <div
               style={{
                 width: 124,
                 height: 124,
-                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                backgroundColor: "rgb(0 113 188)",
                 borderRadius: "50%",
               }}
               className="usa-media-block__img"
@@ -34,7 +27,7 @@ export default function GridContainer() {
                   strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  backgroundColor: "rgb(0 113 188)",
                   borderRadius: "50%",
                 }}
               />
@@ -54,7 +47,7 @@ export default function GridContainer() {
               style={{
                 width: 124,
                 height: 124,
-                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                backgroundColor: "rgb(0 113 188)",
                 borderRadius: "50%",
               }}
               className="usa-media-block__img"
@@ -68,7 +61,7 @@ export default function GridContainer() {
                   strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  backgroundColor: "rgb(0 113 188)",
                   borderRadius: "50%",
                 }}
               />
@@ -88,7 +81,7 @@ export default function GridContainer() {
               style={{
                 width: 124,
                 height: 124,
-                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                backgroundColor: "rgb(0 113 188)",
                 borderRadius: "50%",
               }}
               className="usa-media-block__img"
@@ -102,7 +95,7 @@ export default function GridContainer() {
                   strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  backgroundColor: "rgb(0 113 188)",
                   borderRadius: "50%",
                 }}
               />
@@ -122,7 +115,7 @@ export default function GridContainer() {
               style={{
                 width: 124,
                 height: 124,
-                backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                backgroundColor: "rgb(0 113 188)",
                 borderRadius: "50%",
               }}
               className="usa-media-block__img"
@@ -137,7 +130,7 @@ export default function GridContainer() {
                   strokeWidth: ".25px",
                   width: 124,
                   height: 124,
-                  backgroundColor: "color(srgb 0.001 0.4424 0.737)",
+                  backgroundColor: "rgb(0 113 188)",
                   borderRadius: "50%",
                 }}
               />
