@@ -56,6 +56,7 @@ export default function Nav() {
           <div className="usa-identifier__usagov-description">
             Looking for U.S. government information and services?
           </div>
+          &nbsp;
           <a href="https://www.usa.gov/" className="usa-link">
             Visit USA.gov
           </a>
