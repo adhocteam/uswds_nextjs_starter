@@ -1,7 +1,7 @@
-import SvgAccessibleForward from "./icons/AccessibleForward.js";
-import SvgBuild from "./icons/Build.js";
-import SvgConstructionWorker from "./icons/ConstructionWorker.js";
-import SvgGithub from "./icons/Github.js";
+import SvgAccessibleForward from "./icons/AccessibleForward";
+import SvgBuild from "./icons/Build";
+import SvgConstructionWorker from "./icons/ConstructionWorker";
+import SvgGithub from "./icons/Github";
 
 export default function GridContainer() {
   return (

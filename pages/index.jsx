@@ -1,12 +1,12 @@
 import Head from "next/head";
 import Script from "next/script";
-import Header from "../components/header";
-import Hero from "../components/hero";
-import Tagline from "../components/tagline";
-import GridContainer from "../components/gridContainer";
-import Intro from "../components/intro";
-import Footer from "../components/footer";
-import Nav from "../components/nav";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Tagline from "../components/Tagline";
+import GridContainer from "../components/GridContainer";
+import Intro from "../components/Intro";
+import Footer from "../components/Footer";
+import Nav from "../components/Nav";
 
 export default function Home() {
   return (

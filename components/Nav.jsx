@@ -1,4 +1,4 @@
-import Masthead from "./masthead";
+import Masthead from "./Masthead";
 
 export default function Nav() {
   return (

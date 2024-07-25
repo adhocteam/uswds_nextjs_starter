@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import circle from "/public/uswds/img/circle-gray-20.svg";
 
 export default function Masthead() {

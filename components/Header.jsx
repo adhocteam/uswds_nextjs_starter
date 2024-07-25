@@ -1,6 +1,5 @@
 import Link from "next/link";
-
-import Banner from "./banner";
+import Banner from "./Banner";
 
 export default function Header() {
   return (
